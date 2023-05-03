@@ -20,7 +20,7 @@ def start_game():
        f'Hi, {player_name}, would you like to play the guessing game?'
        '(Enter Yes/No): ')
 
-   if wanna_play.lower() == 'yes':
+   if wanna_play.lower() != 'yes':
       print('That\'s cool, Thanks!')
       exit()
    else:
