@@ -29,7 +29,7 @@ def start_game():
    while wanna_play.lower() == 'yes':
        try:
            guess = int(input('Pick a number between 1 and 15: '))
-           if guess < 1 or guess > 10:
+           if guess < 1 or guess > 15:
                raise ValueError(
                    'Please guess a number within the given range')
 
