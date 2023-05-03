@@ -13,7 +13,7 @@ def show_score():
 
 def start_game():
    attempts = 0
-   rand_num = random.randint(1, 10)
+   rand_num = random.randint(1, 15)
    print('Hello traveler! Welcome to the game of guesses!')
    player_name = input('What is your name? ')
    wanna_play = input(
